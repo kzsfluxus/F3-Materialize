@@ -13,7 +13,7 @@ class Controller {
     const LAYOUT=self::LAYOUT;
     
     /**
-     * The $f3 variable
+     * The f3 variable
      * 
      * @var type 
      */
