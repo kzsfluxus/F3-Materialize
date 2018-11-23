@@ -1,0 +1,22 @@
+{
+  "name": "f3m",
+  "version": "1.0.0",
+  "description": "Fat Free Framework with Materialize, MVC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kzsfluxus@github.com/kzsfluxus/F3-Materialize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kzsfluxus/F3-Materialize/issues"
+  },
+  "homepage": "https://github.com/kzsfluxus/F3-Materialize#readme",
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}
