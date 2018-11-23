@@ -15,7 +15,7 @@ class Model {
     protected $db;
     
     /**
-     * Konstruktor
+     * Constructor
      * 
      */
     public function __construct() {
