@@ -2,7 +2,7 @@
 
 namespace app\controllers;
 /**
- * Alap controller osztály
+ * BaseController
  * 
  */
 class Controller {
@@ -13,14 +13,14 @@ class Controller {
     const LAYOUT=self::LAYOUT;
     
     /**
-     * Az $f3 változó
+     * The $f3 variable
      * 
      * @var type 
      */
     protected $f3;
     
     /**
-     * Konstruktor 
+     * Constructor 
      *  
      */
     public function __construct() {
