@@ -8,7 +8,7 @@ namespace app\models;
 class Model {
     
     /**
-     * A $db változó
+     * The $db variable
      * 
      * @var mixed 
      */

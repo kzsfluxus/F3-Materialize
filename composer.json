@@ -1,0 +1,13 @@
+{
+    "name": "fszek",
+    "description": "F3 app",
+    "require": {
+        "bcosca/fatfree": "3.6.*"
+    },
+    "authors": [
+        {
+            "name": "Kovács Zsolt",
+            "email": "kzsgpl@gmail.com"
+        }
+    ]
+}
