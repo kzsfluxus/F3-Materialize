@@ -7,6 +7,17 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <style>
+            body {
+                display: flex;
+                min-height: 100vh;
+                flex-direction: column;
+            }
+
+            main {
+                flex: 1 0 auto;
+            }
+        </style>
     </head>
 
     <body>
@@ -19,17 +30,17 @@
                 </ul>
             </div>
         </nav>
-
+        <main>
         <div class="container">        
             <?php echo $this->render(Base::instance()->get('content')); ?>
         </div>
-        
+</main>
         <footer class="page-footer">
-            <div class="container">
+            <div class="container sticky">
                 <code><?php echo Base::instance()->format('{0} msecs / {1} Kibytes', round(1e3 * (microtime(TRUE) - $TIME), 2), round(memory_get_usage(TRUE) / 1e3, 1)); ?></code>
             </div>
         </footer>
-            
+
         <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
 
